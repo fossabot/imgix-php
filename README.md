@@ -1,5 +1,6 @@
 <!-- ix-docs-ignore -->
 ![imgix logo](https://assets.imgix.net/sdk-imgix-logo.svg)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimgix%2Fimgix-php.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimgix%2Fimgix-php?ref=badge_shield)
 
 `imgix-php` is a client library for generating image URLs with [imgix](https://www.imgix.com/). It is tested under PHP versions `5.6`, `7.0`, `7.1`, and `7.2`
 
@@ -247,3 +248,7 @@ $builder = new UrlBuilder("demo.imgix.net", true, "", false);
 // Or by calling `setIncludeLibraryParam`
 $builder->setIncludeLibraryParam(false);
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimgix%2Fimgix-php.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimgix%2Fimgix-php?ref=badge_large)
